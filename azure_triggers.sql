@@ -1,29 +1,3 @@
--- delete from raw_data_schema.green_taxi_api_tabular
--- delete from raw_data_schema.green_taxi_trip_records_csv
-select * from raw_data_schema.green_taxi_api_tabular limit 10
-select * from raw_data_schema.green_taxi_trip_records_csv limit 10
-
-select count(*) from filtered_data_schema.combined_trip_records
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-
-
-
-
 --AFTER INSERT TRIGGERS
 create trigger new_green_api
 	after insert on raw_data_schema.green_taxi_api_tabular
@@ -42,12 +16,6 @@ create trigger new_yellow_csv
 	
 
 
-
-
-
-
-	
-	
 	
 	
 --TRIGGER FUNCTIONS	
