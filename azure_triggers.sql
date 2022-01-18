@@ -2,17 +2,17 @@
 create trigger new_green_api
 	after insert on raw_data_schema.green_taxi_api_tabular
 	for each row
-	execute procedure filtered_data_schema.add_from_green_api()
+	execute procedure filtered_data_schema.add_from_green_api();
 	
 create trigger new_green_csv
 	after insert on raw_data_schema.green_taxi_trip_records_csv
 	for each row
-	execute procedure filtered_data_schema.add_from_green_csv()
+	execute procedure filtered_data_schema.add_from_green_csv();
 	
 create trigger new_yellow_csv
 	after insert on raw_data_schema.yellow_taxi_trip_records_csv
 	for each row
-	execute procedure filtered_data_schema.add_from_yellow_csv()
+	execute procedure filtered_data_schema.add_from_yellow_csv();
 	
 
 
