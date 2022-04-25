@@ -5,6 +5,9 @@
 
 
 ## Aim of project
-Create for uploading data (manual .csv files and API requested) to Azure Database and connecting it to Tableau for visualization.
+Upload data to Azure Database and connect it to Tableau for visualization.
 
-data: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+### Data sources:
+- API reqests: https://dev.socrata.com/foundry/data.cityofnewyork.us/mch6-rqy4
+- Historic csv data: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
